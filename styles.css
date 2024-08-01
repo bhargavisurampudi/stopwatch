@@ -1,0 +1,63 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://tse2.mm.bing.net/th?id=OIP.ZaBSR4AgZ2S1OEi799cYSAHaE7&pid=Api&P=0&h=180') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.stopwatch {
+    text-align: center;
+    background: rgba(40, 44, 52, 0.8); /* Semi-transparent background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: #282c34;
+}
+
+.controls button:hover {
+    background-color: #21a1f1;
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.laps h2 {
+    margin-bottom: 10px;
+}
+
+.laps ul {
+    list-style: none;
+    padding: 0;
+}
+
+.laps ul li {
+    background: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
